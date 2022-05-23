@@ -1,0 +1,512 @@
+{"options":[
+    {
+        "symbol": "A",
+        "txt": "← ← → ← → →",
+        "down": 5,
+        "up": 4
+    },
+    {
+        "symbol": "V",
+        "txt": "NO REALLY.",
+        "down": 5,
+        "up": 2
+    },
+    {
+        "symbol": "*",
+        "txt": "1 3 TOO WITH 2 OHS FOUR",
+        "down": 4,
+        "up": 2
+    },
+    {
+        "symbol": ",",
+        "txt": "THIS ONE IS ALL ARROW SYMBOLS NO WORDS",
+        "down": 2,
+        "up": 8
+    },
+    {
+        "symbol": "B",
+        "txt": "1 3 2 4",
+        "down": 3,
+        "up": 2
+    },
+    {
+        "symbol": "W",
+        "txt": "← LEFT → LEFT → RIGHT",
+        "down": 5,
+        "up": 6
+    },
+    {
+        "symbol": "(",
+        "txt": "1 3 TO 4",
+        "down": 3,
+        "up": 0
+    },
+    {
+        "symbol": ">",
+        "txt": "←",
+        "down": 6,
+        "up": 3
+    },
+    {
+        "symbol": "C",
+        "txt": "LEFT ARROW LEFT WORD RIGHT ARROW LEFT WORD RIGHT ARROW RIGHT WORD",
+        "down": 5,
+        "up": 8
+    },
+    {
+        "symbol": "X",
+        "txt": "ONE AND THEN 3 TO 4",
+        "down": 4,
+        "up": 7
+    },
+    {
+        "symbol": ")",
+        "txt": "STOP DOT PERIOD",
+        "down": 5,
+        "up": 0
+    },
+    {
+        "symbol": ".",
+        "txt": "THE WORD STOP TWICE",
+        "down": 9,
+        "up": 4
+    },
+    {
+        "symbol": "D",
+        "txt": "BLANK",
+        "down": 1,
+        "up": 3
+    },
+    {
+        "symbol": "Y",
+        "txt": "STOP TWICE",
+        "down": 7,
+        "up": 6
+    },
+    {
+        "symbol": "_",
+        "txt": "LEFT LEFT RIGHT LEFT RIGHT RIGHT",
+        "down": 6,
+        "up": 7
+    },
+    {
+        "symbol": "?",
+        "txt": "← ← RIGHT LEFT → →",
+        "down": 6,
+        "up": 1
+    },
+    {
+        "symbol": "E",
+        "txt": "LITERALLY BLANK",
+        "down": 1,
+        "up": 5
+    },
+    {
+        "symbol": "Z",
+        "txt": "LEFT",
+        "down": 6,
+        "up": 9
+    },
+    {
+        "symbol": "-",
+        "txt": "IT LITERALLY SAYS THE WORD ONE AND THEN THE NUMBERS 2 3 4",
+        "down": 4,
+        "up": 5
+    },
+    {
+        "symbol": "/",
+        "txt": "THE PUNCTUATION FULLSTOP",
+        "down": 9,
+        "up": 2
+    },
+    {
+        "symbol": "H",
+        "txt": "FOR THE LOVE OF - THE DISPLAY JUST CHANGED, I DIDN'T KNOW THIS MOD COULD DO THAT. DOES IT MENTION THAT IN THE MANUAL?",
+        "down": 8,
+        "up": 7
+    },
+    {
+        "symbol": "F",
+        "txt": "FOR THE LOVE OF ALL THAT IS GOOD AND HOLY PLEASE FULLSTOP FULLSTOP.",
+        "down": 9,
+        "up": 0
+    },
+    {
+        "symbol": "Ø",
+        "txt": "..",
+        "down": 8,
+        "up": 5
+    },
+    {
+        "symbol": "+",
+        "txt": "ONE IN LETTERS 3 2 4 IN NUMBERS",
+        "down": 3,
+        "up": 5
+    },
+    {
+        "symbol": "[",
+        "txt": "NOVEBMER OSCAR SPACE, LIMA INDIA TANGO ECHO ROMEO ALPHA LIMA LIMA YANKEE SPACE NOVEMBER OSCAR TANGO HOTEL INDIA NOVEMBER GOLF",
+        "down": 0,
+        "up": 7
+    },
+    {
+        "symbol": "“",
+        "txt": "1 3 TOO WITH TWO OS 4",
+        "down": 4,
+        "up": 1
+    },
+    {
+        "symbol": "G",
+        "txt": "AN ACTUAL LEFT ARROW LITERAL PHRASE",
+        "down": 5,
+        "up": 3
+    },
+    {
+        "symbol": "1",
+        "txt": "PERIOD PERIOD",
+        "down": 8,
+        "up": 2
+    },
+    {
+        "symbol": "”",
+        "txt": "THREE WORDS THE PUNCTUATION FULLSTOP",
+        "down": 9,
+        "up": 9
+    },
+    {
+        "symbol": "=",
+        "txt": "WAIT FORGET EVERYTHING I JUST SAID, TWO WORDS THEN TWO SYMBOLS THEN TWO WORDS: ← ← RIGHT LEFT → →",
+        "down": 1,
+        "up": 6
+    },
+    {
+        "symbol": "2",
+        "txt": "THERE ARE THREE WORDS NO PUNCTUATION READY? STOP DOT PERIOD",
+        "down": 5,
+        "up": 0
+    },
+    {
+        "symbol": "~",
+        "txt": "1 THREE TWO FOUR",
+        "down": 3,
+        "up": 6
+    },
+    {
+        "symbol": "‘",
+        "txt": "OK WORD FOR WORD LEFT ARROW SYMBOL TWICE THEN THE WORDS RIGHT LEFT RIGHT THEN A RIGHT ARROW SYMBOL",
+        "down": 6,
+        "up": 0
+    },
+    {
+        "symbol": "I",
+        "txt": "ALL WORDS ONE THREE TO FOR FOR AS IN THIS IS FOR YOU",
+        "down": 4,
+        "up": 0
+    },
+    {
+        "symbol": "`",
+        "txt": "PERIOD",
+        "down": 7,
+        "up": 9
+    },
+    {
+        "symbol": "3",
+        "txt": "NOVEBMER OSCAR SPACE, LIMA INDIGO TANGO ECHO ROMEO ALPHA LIMA LIMA YANKEE SPACE NOVEMBER OSCAR TANGO HOTEL INDEGO NOVEMBER GOLF",
+        "down": 2,
+        "up": 9
+    },
+    {
+        "symbol": "’",
+        "txt": "DOT DOT",
+        "down": 8,
+        "up": 6
+    },
+    {
+        "symbol": "J",
+        "txt": "LITERALLY NOTHING",
+        "down": 1,
+        "up": 4
+    },
+    {
+        "symbol": "4",
+        "txt": "FIVE WORDS THREE WORDS THE PUNCTUATION FULLSTOP",
+        "down": 1,
+        "up": 9
+    },
+    {
+        "symbol": "{",
+        "txt": ".STOP",
+        "down": 7,
+        "up": 8
+    },
+    {
+        "symbol": "■",
+        "txt": "LEFT ARROW",
+        "down": 6,
+        "up": 8
+    },
+    {
+        "symbol": "K",
+        "txt": "NO, LITERALLY NOTHING",
+        "down": 2,
+        "up": 5
+    },
+    {
+        "symbol": "5",
+        "txt": "THE PHRASE: THE PUNCTUATION FULLSTOP",
+        "down": 9,
+        "up": 3
+    },
+    {
+        "symbol": "±",
+        "txt": "AFTER I SAY BEEP FIND THIS PHRASE WORD FOR WORD BEEP AN ACTUAL LEFT ARROW",
+        "down": 7,
+        "up": 2
+    },
+    {
+        "symbol": "L",
+        "txt": "THE WORD LEFT",
+        "down": 7,
+        "up": 0
+    },
+    {
+        "symbol": "6",
+        "txt": "EMPTY SPACE",
+        "down": 1,
+        "up": 6
+    },
+    {
+        "symbol": "}",
+        "txt": "LIMA ECHO FOXTROT TANGO SPACE ALPHA ROMEO ROMEO OSCAR WHISKEY SPACE SIERRA YANKEE MIKE BRAVO OSCAR LIMA",
+        "down": 6,
+        "up": 5
+    },
+    {
+        "symbol": "«",
+        "txt": "ONE THREE 2 WITH TWO OHS 4",
+        "down": 4,
+        "up": 3
+    },
+    {
+        "symbol": "M",
+        "txt": "HOLD ON IT'S BLANK",
+        "down": 1,
+        "up": 9
+    },
+    {
+        "symbol": "7",
+        "txt": "ONE THREE TWO FOUR",
+        "down": 3,
+        "up": 7
+    },
+    {
+        "symbol": "]",
+        "txt": "NOTHING",
+        "down": 1,
+        "up": 2
+    },
+    {
+        "symbol": "»",
+        "txt": "LEFT ARROW SYMBOL",
+        "down": 6,
+        "up": 4
+    },
+    {
+        "symbol": "N",
+        "txt": "SEVEN WORDS FIVE WORDS THREE WORDS THE PUNCTUATION FULLSTOP",
+        "down": 0,
+        "up": 5
+    },
+    {
+        "symbol": "8",
+        "txt": "IT'S SHOWING NOTHING",
+        "down": 2,
+        "up": 3
+    },
+    {
+        "symbol": "|",
+        "txt": "THERE'S NOTHING",
+        "down": 1,
+        "up": 8
+    },
+    {
+        "symbol": "▓",
+        "txt": "AN ACTUAL LEFT ARROW",
+        "down": 6,
+        "up": 2
+    },
+    {
+        "symbol": "O",
+        "txt": "THE PHRASE THE WORD STOP TWICE",
+        "down": 9,
+        "up": 1
+    },
+    {
+        "symbol": "9",
+        "txt": "LIMA ECHO FOXTROT TANGO SPACE ALPHA ROMEO ROMEO OSCAR RISKY SPACE SIERRA YANKEE MIKE BRAVO OSCAR LIMA",
+        "down": 1,
+        "up": 2
+    },
+    {
+        "symbol": "\\",
+        "txt": "STOP STOP",
+        "down": 7,
+        "up": 5
+    },
+    {
+        "symbol": "æ",
+        "txt": "THAT'S WHAT IT'S SHOWING",
+        "down": 2,
+        "up": 1
+    },
+    {
+        "symbol": "P",
+        "txt": "THE FOLLOWING SENTENCE THE WORD NOTHING",
+        "down": 2,
+        "up": 7
+    },
+    {
+        "symbol": "!",
+        "txt": "ONE 3 2 4",
+        "down": 3,
+        "up": 4
+    },
+    {
+        "symbol": ":",
+        "txt": "RIGHT ALL IN WORDS STARTING NOW ONE TWO THREE FOUR",
+        "down": 4,
+        "up": 9
+    },
+    {
+        "symbol": "Æ",
+        "txt": "THE PHRASE THE WORD NOTHING",
+        "down": 2,
+        "up": 6
+    },
+    {
+        "symbol": "Q",
+        "txt": "ONE THREE TO FOR",
+        "down": 3,
+        "up": 9
+    },
+    {
+        "symbol": "@",
+        "txt": "STOP.",
+        "down": 7,
+        "up": 4
+    },
+    {
+        "symbol": ";",
+        "txt": "THE PHRASE THE WORD LEFT",
+        "down": 7,
+        "up": 1
+    },
+    {
+        "symbol": "¢",
+        "txt": "THE WORD ONE AND THEN THE NUMBERS 3 2 4",
+        "down": 4,
+        "up": 8
+    },
+    {
+        "symbol": "R",
+        "txt": "THREE WORDS THE WORD STOP",
+        "down": 7,
+        "up": 3
+    },
+    {
+        "symbol": "#",
+        "txt": ".PERIOD",
+        "down": 8,
+        "up": 1
+    },
+    {
+        "symbol": "\"",
+        "txt": "LEFT ARROW SYMBOL TWICE THEN THE WORDS RIGHT LEFT RIGHT THEN A RIGHT ARROW SYMBOL",
+        "down": 5,
+        "up": 9
+    },
+    {
+        "symbol": "┐",
+        "txt": "ONE 3 2 FOUR",
+        "down": 3,
+        "up": 8
+    },
+    {
+        "symbol": "S",
+        "txt": "DISREGARD WHAT I JUST SAID. FOUR WORDS, NO PUNCTUATION. ONE THREE 2 4.",
+        "down": 3,
+        "up": 1
+    },
+    {
+        "symbol": "$",
+        "txt": "NO REALLY STOP",
+        "down": 5,
+        "up": 1
+    },
+    {
+        "symbol": "'",
+        "txt": "LEFT LEFT RIGHT ← RIGHT →",
+        "down": 5,
+        "up": 7
+    },
+    {
+        "symbol": "┴",
+        "txt": "ONE WORD THEN PUNCTUATION. STOP STOP.",
+        "down": 0,
+        "up": 9
+    },
+    {
+        "symbol": "T",
+        "txt": "1 3 2 FOR",
+        "down": 1,
+        "up": 0
+    },
+    {
+        "symbol": "%",
+        "txt": "1 3 TOO 4",
+        "down": 2,
+        "up": 0
+    },
+    {
+        "symbol": "<",
+        "txt": "NO COMMA LITERALLY NOTHING",
+        "down": 2,
+        "up": 4
+    },
+    {
+        "symbol": "┼",
+        "txt": "THE WORD BLANK",
+        "down": 0,
+        "up": 1
+    },
+    {
+        "symbol": "U",
+        "txt": "DISREGARD WHAT I JUST SAID. TWO WORDS THEN TWO DIGITS. ONE THREE 2 4.",
+        "down": 0,
+        "up": 8
+    },
+    {
+        "symbol": "^",
+        "txt": "PERIOD TWICE",
+        "down": 8,
+        "up": 3
+    },
+    {
+        "symbol": "¿",
+        "txt": "HOLD ON CRAZY TALK WHILE I DO THIS NEEDY",
+        "down": 2,
+        "up": 1
+    },
+    {
+        "symbol": "¡",
+        "txt": "FULLSTOP FULLSTOP",
+        "down": 8,
+        "up": 4
+    },
+    {
+        "symbol": "&",
+        "txt": "WE JUST BLEW UP",
+        "down": 4,
+        "up": 2
+    }
+]}
