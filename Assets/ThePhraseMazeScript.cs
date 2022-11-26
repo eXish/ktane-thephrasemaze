@@ -33,7 +33,7 @@ public class ThePhraseMazeScript : MonoBehaviour {
     private PhraseMazeOptions phraseDataParsed;
     private string[,] mazeWalls = new string[17, 5]
                         {
-                            { "U L", "U", "U D", "U", "U R" },
+                            { "U L", "U", "D", "U", "U R" },
                             { "L D R", "L D", "U R D", "L R", "L R" },
                             { "L U", "U D", "U D", "R D", "L R" },
                             { "L D", "U R D", "L U", "U R", "L R" },
@@ -49,7 +49,7 @@ public class ThePhraseMazeScript : MonoBehaviour {
                             { "L U", "U R", "L D R", "L U", "R" },
                             { "L R", "L", "U R", "L D R", "L R" },
                             { "L R", "L R", "L D", "U R", "L R" },
-                            { "L D R", "L D", "U R D", "L D", "R D" }
+                            { "L D R", "L D", "U R", "L D", "R D" }
                         };
     private string[,] mazeCells = new string[17, 5]
                        {
@@ -273,9 +273,13 @@ public class ThePhraseMazeScript : MonoBehaviour {
             {
                 case 0:
                     currentCellRow--;
+                    if (currentCellRow < 0)
+                        currentCellRow = 16;
                     break;
                 case 1:
                     currentCellRow++;
+                    if (currentCellRow > 16)
+                        currentCellRow = 0;
                     break;
                 case 2:
                     currentCellCol--;
