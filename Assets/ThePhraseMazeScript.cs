@@ -456,10 +456,12 @@ public class ThePhraseMazeScript : MonoBehaviour {
                 for (int i = 0; i < 4; i++)
                 {
                     var check = new int[] { next[0] + offsets[i, 0], next[1] + offsets[i, 1] };
+                    if (check[0] > 16) check[0] = 0;
+                    if (check[0] < 0) check[0] = 16;
                     if (!cell.Contains(allDirections[i]) && !allMoves.Any(x => x.start[0] == check[0] && x.start[1] == check[1]))
                     {
-                        q.Enqueue(new int[] { next[0] + offsets[i, 0], next[1] + offsets[i, 1] });
-                        allMoves.Add(new Movement { start = next, end = new int[] { next[0] + offsets[i, 0], next[1] + offsets[i, 1] }, direction = i });
+                        q.Enqueue(check);
+                        allMoves.Add(new Movement { start = next, end = check, direction = i });
                     }
                 }
             }
