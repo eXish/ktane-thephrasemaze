@@ -73,6 +73,7 @@ public class ThePhraseMazeScript : MonoBehaviour {
                        };
     private string[] directions = { "Up", "Down", "Left", "Right" };
     private bool[] switchUp = new bool[4];
+    private int startingCellRow, startintgCellCol;
     private int currentCellRow, currentCellCol;
     private int goalCellRow = -1, goalCellCol;
     private bool activated;
@@ -107,7 +108,9 @@ public class ThePhraseMazeScript : MonoBehaviour {
     {
         phraseDataParsed = JsonConvert.DeserializeObject<PhraseMazeOptions>(phraseData.text);
         currentCellRow = UnityEngine.Random.Range(0, 17);
+        startingCellRow = currentCellRow;
         currentCellCol = UnityEngine.Random.Range(0, 5);
+        startintgCellCol = currentCellCol;
         display.text = phraseDataParsed.options.Where(x => x.symbol == mazeCells[currentCellRow, currentCellCol]).First().txt;
         Debug.LogFormat("[The Phrase Maze #{0}] Displayed phrase: “{1}”", moduleId, phraseDataParsed.options.Where(x => x.symbol == mazeCells[currentCellRow, currentCellCol]).First().txt);
         Transform bombT = transform.parent;
@@ -308,10 +311,19 @@ public class ThePhraseMazeScript : MonoBehaviour {
 
     //twitch plays
     #pragma warning disable 414
-    private readonly string TwitchHelpMessage = @"!{0} flip <up/down/left/right> <#> [Flips the specified switch when any digit of the bomb's timer is '#'] | Commands can be chained, for example: !{0} flip up 3 r 5 left 8";
+    private readonly string TwitchHelpMessage = @"!{0} flip <up/down/left/right> <#> [Flips the specified switch when any digit of the bomb's timer is '#'] | !{0} reset [Resets back to the initially displayed phrase] | Flip commands can be chained, for example: !{0} flip up 3 r 5 left 8";
     #pragma warning restore 414
     IEnumerator ProcessTwitchCommand(string command)
     {
+        if (Regex.IsMatch(command, @"^\s*reset\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+        {
+            yield return null;
+            currentCellRow = startingCellRow;
+            currentCellCol = startintgCellCol;
+            display.text = phraseDataParsed.options.Where(x => x.symbol == mazeCells[currentCellRow, currentCellCol]).First().txt;
+            Debug.LogFormat("[The Phrase Maze #{0}] Module reset on TP back to the initially displayed phrase", moduleId);
+            yield break;
+        }
         string[] parameters = command.Split(' ');
         if (Regex.IsMatch(parameters[0], @"^\s*flip\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
