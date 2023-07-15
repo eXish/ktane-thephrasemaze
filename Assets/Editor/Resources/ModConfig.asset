@@ -23,13 +23,13 @@ MonoBehaviour:
     PDF: https://ktane.timwi.de/PDF/The%20Phrase%20Maze.pdf
 
 
-    The Phrase Maze (thePhraseMazeModule) v1.0.3
+    The Phrase Maze (thePhraseMazeModule) v1.0.4
 
     Module and Concept by eXish
 
     Some assets taken from Crazy Talk
 
     Twitch Plays supported'
-  version: 1.0.3
+  version: 1.0.4
   outputFolder: build
   previewImage: {fileID: 2800000, guid: c1b858a75312a0649a4b844e1e15cbc7, type: 3}

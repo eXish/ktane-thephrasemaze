@@ -119,10 +119,11 @@ public class ThePhraseMazeScript : MonoBehaviour {
         {
             for (int i = 0; i < bombT.childCount; i++)
             {
-                if (bombT.GetChild(i).gameObject.name == "CrazyTalkModule(Clone)")
+                Transform mod = bombT.GetChild(i);
+                if (mod.GetComponent<KMBombModule>() != null && mod.GetComponent<KMBombModule>().ModuleType == "CrazyTalk")
                 {
-                    while (bombT.GetChild(i).Find("Model/Canvas/Text").GetComponent<Text>().text == "") yield return null;
-                    phrases.Add(bombT.GetChild(i).Find("Model/Canvas/Text").GetComponent<Text>().text);
+                    while (mod.Find("Model/Canvas/Text").GetComponent<Text>().text == "") yield return null;
+                    phrases.Add(mod.Find("Model/Canvas/Text").GetComponent<Text>().text);
                 }
             }
         }
