@@ -129,11 +129,9 @@ public class ThePhraseMazeScript : MonoBehaviour {
         }
         if (phrases.Count > 0)
         {
-            var curRow = currentCellRow;
-            var curCol = currentCellCol;
-            for (int i = (curRow + 16); i >= (curRow); i--)
+            for (int i = 0; i < 17; i++)
             {
-                for (int j = curCol; j < (curCol + 5); j++)
+                for (int j = 0; j < 5; j++)
                 {
                     if (phrases.Contains(phraseDataParsed.options.Where(x => x.symbol == mazeCells[Mod(i + currentCellRow, 17), Mod(j + currentCellCol, 5)]).First().txt))
                     {
@@ -165,7 +163,7 @@ public class ThePhraseMazeScript : MonoBehaviour {
                     }
                     if (Mod(currentCellCol - j, 5) == 0)
                         i++;
-                    if (j == 0)
+                    if (j == 4)
                         i--;
                 }
             }
@@ -198,7 +196,7 @@ public class ThePhraseMazeScript : MonoBehaviour {
                         }
                         if (Mod(currentCellRow - i, 17) == 0)
                             j++;
-                        if (i == 0)
+                        if (i == 16)
                             j--;
                     }
                 }
